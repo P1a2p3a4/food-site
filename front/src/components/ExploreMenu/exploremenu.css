@@ -1,0 +1,81 @@
+.explore-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 75vw;
+    margin-left: -45px; 
+
+}
+
+.explore-menu h1 {
+    color: gray;
+    font-weight: 500;
+}
+
+.paraExplore-memu {
+    max-width: 100%;
+    color: gray;
+    letter-spacing: 3.5px;
+    font-size: 20px;
+}
+
+.explore-menu-list {
+    display: flex;
+
+    width: 115%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+
+}
+
+.explore-menu-list::-webkit-scrollbar {
+    display: none;
+}
+
+.explore-menu-list-items img {
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.2px;
+    border-radius: 50px;
+    border: 3px solid black;
+
+}
+
+.explore-menu-list-items p {
+    margin-top: 20px;
+    color: gray;
+    font-size: max(1.4vw, 16px);
+    cursor: pointer;
+}
+
+.explore-menu hr {
+    margin: 20px 0px;
+    height: 2px;
+    background-color: black;
+    border: none;
+    box-shadow: 5px 2px 8px red;
+    margin-left: 120px;
+}
+
+.explore-menu-list-items .active {
+    border: 5px solid blue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+@media  screen and (max-width:1050px) {
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+    
+
+
+}

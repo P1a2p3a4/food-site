@@ -1,0 +1,75 @@
+.signipopup {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 200px;
+    background-color: gray;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.login-title {
+    margin-top: 20px;
+
+}
+
+.login-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+
+}
+
+.login-popup-inputs input {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.login-btn {
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: rgb(241, 143, 7);
+}
+
+.login-btn:hover {
+    background-color: rgb(65, 65, 250);
+    color: rgb(64, 4, 4);
+
+}
+
+.login-text {
+    font-size: 18px;
+    color: ghostwhite;
+
+}
+
+.click-text {
+    font-size: 20px;
+    color: ghostwhite;
+    font-style: italic;
+
+}
+
+/* 
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}  */
