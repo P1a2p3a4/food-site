@@ -2,7 +2,12 @@ import userModel from "../models/userModel.js"
 
 
 
+
+
+
+
 const addToCart = async (req, res) => {
+
   try {
     const userData = await userModel.findOne({ _id: req.body.userId });
     // Ensure cartData is an object
@@ -13,6 +18,7 @@ const addToCart = async (req, res) => {
 
     if (!cartData[req.body.itemId]) {
       cartData[req.body.itemId] = 1;
+
     } else {
       cartData[req.body.itemId] += 1;
     }
@@ -37,8 +43,11 @@ const removeFromCart = async (req, res) => {
     if (cartData[req.body.itemId] > 0) {
       cartData[req.body.itemId] -= 1
     }
+
     await userModel.findByIdAndUpdate(req.body.userId, { cartData })
+
     res.json({ success: true, message: "Removed From Cart" })
+    
   } catch (e) {
     console.log(e);
     res.json({ success: false, message: "Error" })

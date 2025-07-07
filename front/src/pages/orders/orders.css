@@ -1,4 +1,4 @@
-
+/* 
 .place-order-btn {
     width: 100%;
     display: flex;
@@ -96,4 +96,116 @@
 }
 .place-order .cart-total button{
     margin-top: 30px;
+} */
+
+
+.place-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap; /* Allows wrap on smaller screens */
+  background-color: #fdfdfd;
+  font-family: Arial, sans-serif;
+}
+
+/* Left section */
+.place-order-left {
+  flex: 2;
+  max-width: 60%;
+}
+
+.place-order-left .title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.place-order-left input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Grouping two inputs in a row */
+.multi-fields {
+  display: flex;
+  gap: 20px;
+}
+
+.multi-fields input {
+  flex: 1;
+}
+
+/* Right section */
+.place-order-right {
+  flex: 1;
+  max-width: 35%;
+  padding: 30px;
+  border-left: 2px solid #e0e0e0;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.cart-total h2 {
+  color: #e74c3c;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cart-total-details,
+.cart-total-detials {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Submit button */
+.place-order-btn {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.place-order-btn button {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.place-order-btn button:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive support */
+@media (max-width: 768px) {
+  .place-order {
+    flex-direction: column;
+  }
+
+  .place-order-left, .place-order-right {
+    max-width: 100%;
+  }
+
+  .place-order-right {
+    border-left: none;
+    border-top: 2px solid #e0e0e0;
+    margin-top: 30px;
+  }
+
+  .place-order-btn {
+    justify-content: center;
+  }
 }

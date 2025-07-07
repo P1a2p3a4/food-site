@@ -40,15 +40,4 @@ export default FoodDisplay
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+ 

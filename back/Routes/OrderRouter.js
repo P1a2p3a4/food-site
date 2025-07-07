@@ -4,7 +4,8 @@ import { placeOrder, userOrders } from '../controller/orderController.js'
 
 const orderRoter = express.Router()
 
-orderRoter.post('/place', placeOrder)
+orderRoter.post('/placeOrder', authMiddleware, placeOrder)
 
-orderRoter.post('/userOrders',authMiddleware,userOrders)
+orderRoter.post('/userOrders', authMiddleware, userOrders)
+
 export default orderRoter

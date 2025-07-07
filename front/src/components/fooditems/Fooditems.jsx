@@ -5,7 +5,7 @@ import { food_list } from '../../assets/assets'
 
 const Fooditems = ({ id, name, image, price, description }) => {
 
-    const { cartItems, addToCart,  removeFromCart } = useContext(StoreContext)
+    const { cartItems, addToCart, removeFromCart } = useContext(StoreContext)
 
     // const [itemcount, setitemCount] = useState(0)
     //   function func1 (v){
@@ -19,7 +19,9 @@ const Fooditems = ({ id, name, image, price, description }) => {
 
 
             <div className='food-item-image-container'>
+
                 <img src={image} alt={name} />
+
             </div>
             <div className='food-item-info'>
 
@@ -32,10 +34,10 @@ const Fooditems = ({ id, name, image, price, description }) => {
 
                     !cartItems[id] ? <button className='add' onClick={() => addToCart(id)}>ADD</button> :
                         <div className='food-item-counter'>
-                            <img onClick={() =>  removeFromCart(id)} src="./Src/assets/food-list/remove.png" alt="remove icon" />
+                            <img onClick={() => removeFromCart(id)} src="./Src/assets/food-list/remove.png" alt="remove icon" />
                             <p>{cartItems[id]}</p>
 
-                             {/* <input type="text" onChange={func1} />   */}
+                            {/* <input type="text" onChange={func1} />   */}
 
                             <img onClick={() => addToCart(id)} src="./Src/assets/food-list/add.png" alt="" />
                         </div>
@@ -59,3 +61,6 @@ const Fooditems = ({ id, name, image, price, description }) => {
 }
 
 export default Fooditems
+
+
+ 

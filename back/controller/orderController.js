@@ -68,6 +68,8 @@ const frontendUrl = process.env.FRONTEND_URL || "http://localhost:5173";
 
 
 
+
+
 const placeOrder = async (req, res) => {
 
     console.log('PlaceOrder function is working');
@@ -83,6 +85,8 @@ const placeOrder = async (req, res) => {
     await newOrder.save()
 
     await userModel.findByIdAndUpdate(req.body.userId, { cartData: {} });
+
+
 
 
 
@@ -144,7 +148,7 @@ const placeOrder = async (req, res) => {
 const userOrders = async (req, res) => {
     try {
         const { userId } = req.body;
-        const orders = await OrderModel.find({ userId })
+        const orders = await OrderModel.find({ userId:req.body.userId })
         res.json({ success: true, data: orders })
     } catch (e) {
         console.log(error);

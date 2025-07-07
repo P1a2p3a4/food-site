@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./add.css"
-import { assets } from '../../assets/assets'
+import { assets } from '../../assets/assets.js'
 import axios from 'axios'
 import { toast } from 'react-toastify'
 
@@ -102,9 +102,11 @@ const Add = ({urlprop}) => {
             }
         };
         fetchItem();
+        console.log(data);
+        
     }, []);
 
-    if (!item) return <p>Loading...</p>;
+    // if (!item) return <p>Loading...</p>;
 
 
 
@@ -155,6 +157,7 @@ const Add = ({urlprop}) => {
                         required>
 
                     </textarea>
+
                 </div>
 
                 <div className='add-category-price'>

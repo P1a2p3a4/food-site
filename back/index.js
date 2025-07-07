@@ -1,4 +1,5 @@
- import express from 'express';
+import express from 'express';
+
 import cors from 'cors'
 import { connectDB } from './config/db.js';
 import { EventEmitter } from 'events';
@@ -29,27 +30,31 @@ app.use('/api/user', userRouter)
 
 app.use('/api/cart', cartRouter)
 
-app.use("/images", express.static(path.join(_dirname,'uploads')))
-
 app.use('/api/order', orderRouter)
+
+app.use("/images", express.static(path.join(_dirname, 'uploads')))
+
+
+
+//app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.get('/', (req, res) => {
   res.send("Api working")
 })
 
-app.get('/example', (req, res) => {
-  const someCondition = true
-  if (someCondition) {
-    return res.status(200).json({ msg: 'First response' });
-  }
-  return res.status(400).json({ msg: 'Second response' });
-});
+// app.get('/example', (req, res) => {
+//   const someCondition = true
+//   if (someCondition) {
+//     return res.status(200).json({ msg: 'First response' });
+//   }
+//   return res.status(400).json({ msg: 'Second response' });
+// });
 
 app.use((err, req, res, next) => {
   console.log(err.stack);
   res.status(500).json({ error: 'Internal Server Error' })
- 
+
 })
 
 connectDB()

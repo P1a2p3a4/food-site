@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './SigninPopup.css'
-const SigninPopup = ({setShowlogin}) => {
+const SigninPopup = ({ setShowlogin }) => {
 
   const [currState, setCurrstate] = useState('sign Up')
   return (
@@ -8,17 +8,17 @@ const SigninPopup = ({setShowlogin}) => {
       <form action="">
         <div className='login-title'>
 
-          <img onClick={()=>setShowlogin(false)} src="/src/assets/food-list/cras.png" alt="cras" />
+          <img onClick={() => setShowlogin(false)} src="/src/assets/food-list/cras.png" alt="cras" />
           <h1>{currState}</h1>
 
 
           <div className='login-popup-inputs'>
 
-              
-             {currState === 'SignUp' ?
-              <input type="text" placeholder='your name' required /> : <></>}
-             
-             
+
+            {currState === 'SignUp' ?
+              <input type="text" name='name' placeholder='your name' required /> : <></>}
+
+
             <input type="email" name='email' id='email' placeholder='your Email' required />
             <input type="password" name='password' id='password' placeholder='password' required />
 

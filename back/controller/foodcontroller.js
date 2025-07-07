@@ -8,7 +8,6 @@ import fs from 'fs';
 
 const addFood = async (req, res) => {
   
-    const { name, description, price, category } = req.body;
     const image_filename = `${req.file.filename}`;
 
 
@@ -20,6 +19,7 @@ const addFood = async (req, res) => {
       category: req.body.category,
       image: image_filename,
     });
+
     try {
       await food.save();
       res.json({ success: true, message: "food added successfuly" })
@@ -54,6 +54,7 @@ const addFood = async (req, res) => {
       if (!food) return res.status(404).json({ success: false, message: "Food not found" });
   
       // Delete image file
+      
       if (food.image) {
         fs.unlink(`uploads/${food.image}`, (err) => {
           if (err) console.log("Failed to delete image:", err.message);

@@ -3,62 +3,62 @@ export const menu_list = [
     {
         _id: "1",
         menu_name: "salad",
-        menu_image: "./public/food-img/1.jpg"
+        menu_image: "./src/assets/food-img/1.jpg"
     },
     {
         _id: "2",
         menu_name: "Rolls",
-        menu_image: "./public/food-img/2.avif"
+        menu_image: "./src/assets/food-img/2.avif"
     },
     {
         _id: "3",
         menu_name: "Momos",
-        menu_image: "./public/food-img/3.jpg"
+        menu_image: "./src/assets/food-img/3.jpg"
     },
     {
         _id: "4",
         menu_name: "Sandwich",
-        menu_image: "./public/food-img/4.jpg"
+        menu_image: "./src/assets/food-img/4.jpg"
     },
     {
         _id: "5",
         menu_name: "Cake",
-        menu_image: "./public/food-img/5.jpg"
+        menu_image: "./src/assets/food-img/5.jpg"
     },
     {
         _id: "6",
         menu_name: "Pure veg",
-        menu_image: "./public/food-img/7.png"
+        menu_image: "./src/assets/food-img/6.png"
     },
     {
         _id: "7",
         menu_name: "pasta",
-        menu_image: "./public/food-img/8.webp"
+        menu_image: "./src/assets/food-img/7.webp"
     },
     {
         _id: "8",
         menu_name: "Noodles",
-        menu_image: "./public/food-img/9..png"
+        menu_image: "./src/assets/food-img/8.png"
     },
     {
         _id: "9",
         menu_name: "Pizza",
-        menu_image: "./public/food-img/10.png"
+        menu_image: "./src/assets/food-img/9.png"
     },
     {
         _id: "10",
         menu_name: "FrenchFries",
-        menu_image: "./public/food-img/12.png"
+        menu_image: "./src/assets/food-img/11.png"
     },
     {
         _id: "11",
         menu_name: "Sricky Orange Chicken",
-        menu_image: "./public/food-img/13.jpg"
+        menu_image: "./src/assets/food-img/21.jpg"
     },
     {
         _id: "12",
         menu_name: "Burgers",
-        menu_image: "./public/food-img/14.jpg"
+        menu_image: "./src/assets/food-img/10.webp"
     }
 ]
 
@@ -103,7 +103,7 @@ export const food_list = [
 
 
 
-                    // Rolls
+    // Rolls
 
 
     {
@@ -142,7 +142,7 @@ export const food_list = [
 
 
 
-                //  momos
+    //  momos
 
 
     {
@@ -182,7 +182,7 @@ export const food_list = [
 
 
 
-              // sandwich
+    // sandwich
 
 
     {
@@ -467,8 +467,8 @@ export const food_list = [
         description: " Crispy, flavorful snack with a satisfying irani chicken  ",
         category: "irani Chicken"
     },
-             // Burgers
- {
+    // Burgers
+    {
         _id: "45",
         name: "Classic Chicken Burger",
         image: "./Src/assets/food-list/45.avif",
@@ -502,3 +502,32 @@ export const food_list = [
 ]
 
 
+import logo from "./logo.png"
+import add_icon from "./add_icon.png"
+import order_icon from "./order_icon.png"
+import login_profile from "./login_profile.png"
+import logout_icon from "./logout_icon.png"
+import orders_bag from "./orders_bag.png"
+import parcel from "./parcel.png"
+import profile_image from "./profile_image.png"
+import upload_area from "./upload_area.png"
+
+
+export const assets = {
+    logo,
+    add_icon,
+    order_icon,
+    login_profile,
+    logout_icon,
+    orders_bag,
+    parcel,
+    profile_image,
+    upload_area,
+
+}
+
+
+
+
+
+export const url = "http://localhost:5000"
