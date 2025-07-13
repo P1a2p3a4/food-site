@@ -1,12 +1,18 @@
  .app {
-  margin: auto;
-  /* width: 90vw;
-  margin: auto;
-  max-width: 769px; */
-}
+   margin: auto;
+   width: 100%;
+   margin: auto;
+   max-width: 1250px;
+ }
 
-@media (max-width:769px)and(max-width:1024px) {
-   .app{
-    grid-template-columns: 1fr;
-  }
-} 
+ @media (max-width:769px)and(max-width:1024px) {
+   .app {
+     grid-template-columns: 1fr;
+   }
+ }
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

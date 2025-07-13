@@ -9,13 +9,14 @@ import Orders from './pages/orders/Orders'
 import Menu from './pages/menu/Menu'
 import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
-//import myorders from "./pages/Myorders/myorders"
+
 import Add from './pages/Add/Add'
 import List from "./pages/List/List"
-import Sidebar from './components/sidebar/sidebar'
+//import Sidebar from './components/sidebar/sidebar'
 import { ToastContainer } from 'react-toastify'
 
 import "react-toastify/dist/ReactToastify.css"
+import Myorders from './pages/Myorders/myorders'
 
 //import SigninPopup from './components/SigninPopup/SigninPopup'
 
@@ -37,18 +38,18 @@ const App = () => {
         <Navbar setShowLogin={setShowLogin} showLogin={showLogin} />
         <hr />
         <div>
-          <Sidebar />
+          {/* <Sidebar /> */}
 
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path='/menu' element={<Menu />} />
-            <Route path='/cart' element={<Cart />} />
+            <Route path='/Cart' element={<Cart />} />
             <Route path='/add' element={<Add urlprop={url} />} />
 
             <Route path='/list' element={<List urlprop={url} />} />
             <Route path='/orders' element={<Orders />} />
-            <Route path="/myorders" element={<myorders />} />
-
+            <Route path="/myorders" element={<Myorders />} />
+            <Route path="*" element={<h1>404 Not Found</h1>} />
 
           </Routes>
           <Footer />

@@ -67,7 +67,7 @@ export const menu_list = [
 export const food_list = [
 
     {
-        _id: 1,
+        _id: "1",
         name: "Greek salad",
         image: "./Src/assets/food-list/1.avif",
         price: "265",
@@ -76,7 +76,7 @@ export const food_list = [
     },
 
     {
-        _id: 2,
+        _id: "2",
         name: "Chicken Keto salad",
         image: "./Src/assets/food-list/2.avif",
         price: "269",
