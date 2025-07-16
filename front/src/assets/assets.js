@@ -108,36 +108,36 @@ export const food_list = [
 
     {
         _id: "5",
-        name: "Veg Roll",
+        name: "Veg Rolls",
         image: "./Src/assets/food-list/5.avif",
-        price: "55",
+        price: "509",
         description: "A  delight that is sure to awaken your taste buds with its delectable combination  . ",
-        category: "Veg Roll"
+        category: "Rolls"
     },
     {
         _id: "6",
-        name: "Chicken Meatball Sig.Wrap",
+        name: "Chicken Meatball Rolls",
         image: "./Src/assets/food-list/6.avif",
         price: "309",
         description: "Enjoy twice the amount of filling with this wrap.choice. ",
-        category: "Chicken Meatball Sig.Wrap"
+        category: "Rolls"
     },
     {
         _id: "7",
-        name: "Khajur Roll",
+        name: "Khajur Rolls",
         image: "./Src/assets/food-list/7.avif",
         price: "300",
         description: "Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno.",
-        category: "khajur Roll"
+        category: "Rolls"
     },
 
     {
         _id: "8",
-        name: "Egg Roll",
+        name: "Egg Rolls",
         image: "./Src/assets/food-list/8.avif",
         price: "69",
         description: "Mixed of egg, vegetables and our flavors rolled in a flour roti.",
-        category: "Egg Roll"
+        category: "Rolls"
     },
 
 
@@ -151,7 +151,7 @@ export const food_list = [
         image: "./Src/assets/food-list/9.avif",
         price: "70",
         description: "Mixed of ,  and our flavors in a flour veg momos.",
-        category: "Veg momos"
+        category: "Momos"
     },
     {
         _id: "10",
@@ -159,7 +159,7 @@ export const food_list = [
         image: "./Src/assets/food-list/10.avif",
         price: "94",
         description: "Minced Chicken With Spices One Portion 4 Pieces ",
-        category: "Chicken momos"
+        category: "Momos"
     },
     {
         _id: "11",
@@ -167,7 +167,7 @@ export const food_list = [
         image: "./Src/assets/food-list/11.avif",
         price: "199",
         description: " 5 Pcs) - Goodness of grated paneer mixed with special spices, dipped in cornflour batter & fried golden. .",
-        category: "Paneer Kurkure Momos"
+        category: "Momos"
     },
 
     {
@@ -176,7 +176,7 @@ export const food_list = [
         image: "./Src/assets/food-list/12.avif",
         price: "149",
         description: "Chicken momos tossed in a spiciest sauce (7 pcs).",
-        category: "Chicken Moms from Hell"
+        category: "Momos"
     },
 
 
@@ -191,7 +191,7 @@ export const food_list = [
         image: "./Src/assets/food-list/13.avif",
         price: "272",
         description: "Chicken strips glazed with teriyaki sauce, combined with your favourite veggies .",
-        category: "Chicken Teriyaki sandwich"
+        category: "Sandwich"
     },
     {
         _id: "14",
@@ -199,7 +199,7 @@ export const food_list = [
         image: "./Src/assets/food-list/14.jpg",
         price: "281",
         description: "Protein-enriched classic Italian B.M.T. sub with a mix of tasty chicken .",
-        category: "B.M.T Sandwich"
+        category: "Sandwich"
     },
     {
         _id: "15",
@@ -207,7 +207,7 @@ export const food_list = [
         image: "./Src/assets/food-list/15.avif",
         price: "358",
         description: "[contains lactose, contains gluten]chicken sausage, salami, omelette, and cheese in grilled bread.",
-        category: "Bbp Chicken Sandwich"
+        category: "Sandwich"
     },
 
     {
@@ -216,7 +216,7 @@ export const food_list = [
         image: "./Src/assets/food-list/16.avif",
         price: "160",
         description: " A Refreshing And Zesty Snack, Layered With Cooling Mint Chutney, Crisp Cucumber, And Juicy Tomato.",
-        category: "Mint Sandwich"
+        category: "Sandwich"
     },
 
     //   Cake
@@ -229,7 +229,7 @@ export const food_list = [
         image: "./Src/assets/food-list/17.avif",
         price: "350",
         description: " Subject To AvailbleGarnish",
-        category: "Mint Sandwich"
+        category: "Cake"
     },
 
     {
@@ -238,7 +238,7 @@ export const food_list = [
         image: "./Src/assets/food-list/18.avif",
         price: "459",
         description: "This Cake is a delightful dessert   .",
-        category: "Pineapple Cake"
+        category: "Cake"
     },
 
     {
@@ -247,7 +247,7 @@ export const food_list = [
         image: "./Src/assets/food-list/19.avif",
         price: "689",
         description: "  image is for refrence purpose! product may vary in desigh!.",
-        category: "Mint Sandwich"
+        category: "Cake"
     },
 
     {
@@ -256,7 +256,7 @@ export const food_list = [
         image: "./Src/assets/food-list/20.avif",
         price: "742",
         description: " Image is for refrence purpose! product may vary in design !",
-        category: "Mint Sandwich"
+        category: "Cake"
     },
 
     //   veg meals
@@ -269,7 +269,7 @@ export const food_list = [
         image: "./Src/assets/food-list/21.avif",
         price: "279",
         description: "1 slice gaucamole toast, 2 pancakes with maple syrup or honey, 2 hashbrown, boiled sweet corn, sauteed mushroom ",
-        category: "Veggle Delight"
+        category: "Pure veg"
     },
     {
         _id: "22",
@@ -277,7 +277,7 @@ export const food_list = [
         image: "./Src/assets/food-list/22.avif",
         price: "359",
         description: "Time to relish a tempting veg-ilicious feast with your choice of biryani, kebabs and beverage!",
-        category: "Veg Half Kg Biryani+ Kebab Meals + Beverage Meal"
+        category: "Pure veg"
     },
     {
         _id: "23",
@@ -285,7 +285,7 @@ export const food_list = [
         image: "./Src/assets/food-list/23.avif",
         price: "139",
         description: "A Delicious Meal With Roti, 2 Types Of Flavored Rice, Fryums, Kesari Bath, Vegetable Gravy, Dry Subzi And More. !",
-        category: "Mini Meals"
+        category: "Pure veg"
     },
 
     {
@@ -294,7 +294,7 @@ export const food_list = [
         image: "./Src/assets/food-list/24.avif",
         price: "170",
         description: "  Poori + Rice + flavoured rice + Dal + Sambar + Curry + Dum Curry + Rasam + Pickel + Curd + Papad + Sweet ( Serves 1)",
-        category: "Plate Meals"
+        category: "Pure veg"
     },
     //   pasta
     {
@@ -303,7 +303,7 @@ export const food_list = [
         image: "./Src/assets/food-list/25.avif",
         price: "299",
         description: " One of our favorite way to servo Pesto, in a creamy sauce with Chicken. ",
-        category: "Hearbad Chicken Peato pasta"
+        category: "pasta"
     },
 
     {
@@ -312,14 +312,14 @@ export const food_list = [
         image: "./Src/assets/food-list/26.avif",
         price: "279",
         description: " Haif and haif of white & pink pasta put together in a single serve ",
-        category: "Pasta in pasta"
+        category: "pasta"
     }, {
         _id: "27",
         name: "Pasta",
         image: "./Src/assets/food-list/27.avif",
         price: "269",
         description: " { Serve 1 }(An oil free penne pasta cooked with White Creamy Sauce .",
-        category: "Pasta"
+        category: "pasta"
     },
 
     {
@@ -328,7 +328,7 @@ export const food_list = [
         image: "./Src/assets/food-list/28.avif",
         price: "550",
         description: " Tomato based pasta cooked with chilli peppers, garlic, parsley.",
-        category: "Arrabbiata pasta"
+        category: "pasta"
     },
 
 
@@ -340,7 +340,7 @@ export const food_list = [
         image: "./Src/assets/food-list/29.avif",
         price: "230",
         description: " A succulent and flavorful dish for veg lovers. ",
-        category: "Veg.Noodlea"
+        category: "Noodles"
     },
     {
         _id: "30",
@@ -348,7 +348,7 @@ export const food_list = [
         image: "./Src/assets/food-list/30.avif",
         price: "118",
         description: "  A succulent and flavorful dish with tender chicken and soft noodles, a delightful treat for non-veg lovers.",
-        category: "Chicken Soft Noodles"
+        category: "Noodles"
     },
     {
         _id: "31",
@@ -356,7 +356,7 @@ export const food_list = [
         image: "./Src/assets/food-list/31.avif",
         price: "150",
         description: "Delicious Chinese dish made with mixed vegetables and noodles.  ",
-        category: "Veg Noodles"
+        category: "Noodles"
     },
     {
         _id: "32",
@@ -364,7 +364,7 @@ export const food_list = [
         image: "./Src/assets/food-list/32.avif",
         price: "250",
         description: "  Delicious Noodles with sauce and garlic ",
-        category: "Arrabbiata pasta"
+        category: "Noodles"
     },
 
     //    Pizza
@@ -375,14 +375,14 @@ export const food_list = [
         image: "./Src/assets/food-list/33.avif",
         price: "409",
         description: " The classic veggie favourite loaded with fresh vegetables, tomato sauce to deliver an explosion of flavour. Regular [ 10 inches]   ",
-        category: "Farmhouse Pizza"
+        category: "Pizza"
     }, {
         _id: "34",
         name: "Cheezy-7 Pizza",
         image: "./Src/assets/food-list/34.avif",
         price: "308",
         description: "  An Exotic Combination of White Mozzarilla, Cream White Cheese, ",
-        category: "Cheezy-7 Pizza"
+        category: "Pizza"
     },
     {
         _id: "35",
@@ -390,7 +390,7 @@ export const food_list = [
         image: "./Src/assets/food-list/35.avif",
         price: "473",
         description: "     A succulent and flavorful dish for veg lovers. ",
-        category: "Veg Pizza"
+        category: "Pizza"
     },
     {
         _id: "36",
@@ -398,7 +398,7 @@ export const food_list = [
         image: "./Src/assets/food-list/32.avif",
         price: "279",
         description: " Our signature pizza crust loaded with Classic Mozzarella Cheese + Cheddar Cheese + Tomato  ",
-        category: "Margherita Pizza"
+        category: "Pizza"
     },
     //French Fries
     {
@@ -407,21 +407,21 @@ export const food_list = [
         image: "./Src/assets/food-list/37.avif",
         price: "159",
         description: " Special peri peri masala french fries with mayo ",
-        category: "Masala French Fries"
+        category: "FrenchFries"
     }, {
         _id: "38",
         name: "Peri Peri French Fries",
         image: "./Src/assets/food-list/38.avif",
         price: "109",
         description: "Humble fries that are fried to a crisp and spiced with the zingy flavour of Peri Peri.",
-        category: "Peri Peri French Fries"
+        category: "FrenchFries"
     }, {
         _id: "39",
         name: "French Fries",
         image: "./Src/assets/food-list/39.avif",
         price: "120",
         description: " Crispy, flavorful snack with a satisfying crunch, perfect for munching on any time of the day. ",
-        category: "French Fries"
+        category: "FrenchFries"
     },
 
     {
@@ -430,42 +430,42 @@ export const food_list = [
         image: "./Src/assets/food-list/40.avif",
         price: "140",
         description: " Crispy, flavorful snack with a satisfying crunch fries  ",
-        category: "french fries"
+        category: "FrenchFries"
     },
 
     // Sricky orange chicken
     {
         _id: "41",
-        name: "Orange Chicken",
+        name: "Sricky Orange Chicken",
         image: "./Src/assets/food-list/41.webp",
         price: "489",
         description: "Sweet and spicy boneless chicken, sauteed with red chillies, .",
-        category: "Orange Chicken"
+        category: "Sricky Orange Chicken"
     },
     {
         _id: "42",
-        name: "Orange Chicken Wings",
+        name: "Wings Sricky Orange Chicken  ",
         image: "./Src/assets/food-list/42.jpg",
         price: "325",
         description: "Tandoori marinated chicken wings, deep fried and tossed in orange barbeque sauce.",
-        category: "Orange Chicken Wings"
+        category: "Sricky Orange Chicken"
     },
     {
         _id: "43",
-        name: "Spicy Orange Chicken ",
+        name: "Spicy Sricky Orange Chicken ",
         image: "./Src/assets/food-list/43.avif",
         price: "320",
         description: "Marinated chicken sauteed with fresh vegetables tossed in orange juice and house sauces  ",
-        category: "Spicy Orange Chicken"
+        category: "Sricky Orange Chicken"
     },
 
     {
         _id: "44",
-        name: "Irani chicken",
+        name: "Irani Sricky Orange chicken",
         image: "./Src/assets/food-list/44.avif",
         price: "365",
         description: " Crispy, flavorful snack with a satisfying irani chicken  ",
-        category: "irani Chicken"
+        category: "Sricky Orange Chicken"
     },
     // Burgers
     {
@@ -474,7 +474,7 @@ export const food_list = [
         image: "./Src/assets/food-list/45.avif",
         price: "215",
         description: "Honey mustard, fried chicken, cheese slice. Best enjoyed with animal sauce.   ",
-        category: "Classic  Chicken Burger"
+        category: "Burgers"
 
     }, {
         _id: "46",
@@ -482,21 +482,21 @@ export const food_list = [
         image: "./Src/assets/food-list/46.avif",
         price: "150",
         description: "Savour your favorite spiced veggie patty, lettuce, mayo, between toasted sesame buns in every bitechicken  ",
-        category: "Mc veggle Burger"
+        category: "Burgers"
     }, {
         _id: "47",
         name: "Mc chicken Burger",
         image: "./Src/assets/food-list/47.avif",
         price: "142",
         description: "Enjoy the classic, tender chicken patty with creamy mayonnaise and lettuce in every bitechicken  ",
-        category: "Mc Chicken Burger"
+        category: "Burgers"
     }, {
         _id: "48",
         name: "Bbp Chicken Burger",
         image: "./Src/assets/food-list/48.avif",
         price: "371",
         description: "[contains lactose, contains gluten] grilled bbq chicken, fried onion rings and cheese. ",
-        category: "Bbp Chicken Burger"
+        category: "Burgers"
     },
 
 ]

@@ -9,13 +9,11 @@ const Navbar = ({ setShowLogin }) => {
   const [Menubar, setMenu] = useState('Home')
   const { getTotalCartAmount } = useContext(StoreContext)
 
-  const navigate = useNavigate() // ✅ useNavigate hook
-
+  const navigate = useNavigate() 
   const logout = () => {
     localStorage.removeItem("token")
-    // If you have a token state, clear it too:
-    // setToken("")  // <-- Only if you have it in context or props!
-    navigate('/') // ✅ safe redirect after logout
+     
+    navigate('/')  
   }
 
   return (

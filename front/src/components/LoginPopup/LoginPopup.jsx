@@ -4,7 +4,10 @@ import './LoginPopup.css'
 import { StoreContext } from '../../context/StoreContext'
 import axios from 'axios'
 
-const LoginPopup = ({ setshowlogin }) => {
+
+
+const LoginPopup = ({ setShowLogin }) => {
+
   const { url, setToken } = useContext(StoreContext)
 
   const [currState, setCurrstate] = useState('Login')
@@ -22,7 +25,7 @@ const LoginPopup = ({ setshowlogin }) => {
   const onLogin = async (e) => {
     e.preventDefault()
     const endpoint = currState === "Login" ? "/api/user/login" : "/api/user/register"
-    const postData = currState === "Login" 
+    const postData = currState === "Login"
       ? { email: data.email, password: data.password }
       : data
 
@@ -31,7 +34,8 @@ const LoginPopup = ({ setshowlogin }) => {
       if (resp.data.success) {
         setToken(resp.data.token)
         localStorage.setItem("token", resp.data.token)
-        setshowlogin(false)
+        // setshowlogin(false)
+        setShowLogin(false);
       } else {
         alert(resp.data.message)
       }

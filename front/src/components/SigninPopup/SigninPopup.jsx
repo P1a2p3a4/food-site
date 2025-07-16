@@ -1,8 +1,19 @@
 import React, { useState } from 'react'
 import './SigninPopup.css'
+
+
+
+
+
+
+
+
 const SigninPopup = ({ setShowlogin }) => {
 
+
   const [currState, setCurrstate] = useState('sign Up')
+
+  
   return (
     <div className='signipopup'>
       <form action="">

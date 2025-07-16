@@ -44,46 +44,4 @@ export default ExploreMenu
 
 
 
-
-
-
-// import React from 'react'
-// import './ExploreMenu.css'
-// import { menu_list } from '../../assets/assets.js'
  
-
-
-// const ExploreMenu = ({ category, setCategory }) => {
-//   return (
-//     <div className='explore-menu' id='explore-menu '>
-//       <h1>Explore Our Menu</h1>
-//       <p className='paraExplore-menu'>Choose from a diverse menu with group of dishes,snacks,dinner items,tiffins,Non-veg,veg</p>
-//       {category} -printing category here to check its value
-//       <div className='explore-menu-list'>
-
-//         {menu_list.map((item, index) => {
-//           return (
-//             <div onClick={() => setCategory((prev) => prev === item.menu_name ? "All" : item.menu_name)} key={index} className='explore-menu-list-items'>
-
-
-//               <img className={category === item.menu_name ? "active" : ''} src={item.menu_image} alt="menuimage" />
-//               <p>{item.menu_name}</p>
-
-
-//             </div>
-//           )
-//         })}
-
-
-//       </div>
-//       <hr />
-
-
-
-
-//     </div>
-//   )
-// }
-
-
-// export default ExploreMenu

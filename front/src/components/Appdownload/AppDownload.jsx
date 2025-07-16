@@ -6,7 +6,7 @@ const AppDownload = () => {
 
 
         <div className='app-download' id='app-download'>
-            <h1>For Better Expreince Download Craving App</h1>
+            <h1>For Better Expreince Download Food-Site App</h1>
 
             <div className='app-download-icons'>
                 <a href="https://play.google.com/store/apps/details?id=YOUR_APP_ID" target="_blank">

@@ -1,20 +1,19 @@
 import React, { useContext, useState } from 'react'
 import './fooditem.css'
 import { StoreContext } from '../../context/StoreContext'
-import { food_list } from '../../assets/assets'
+//import { food_list } from '../../assets/assets'
+
+
+
 
 const Fooditems = ({ id, name, image, price, description }) => {
+
+
 
     const { cartItems, addToCart, removeFromCart } = useContext(StoreContext)
 
     
-    // const [itemcount, setitemCount] = useState(0)
-    //   function func1 (v){
-    //     console.log(v.target.value);
-    //     let var1 = parseInt(v.target.value)
-    //     setitemCount(var1)
-    //   }
-
+ 
 
 
     return (

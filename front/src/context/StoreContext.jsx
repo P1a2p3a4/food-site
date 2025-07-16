@@ -11,7 +11,7 @@ const StoreProvider = ({ children }) => {
   const [token, setToken] = useState(localStorage.getItem("token") || null);
   const [cartItems, setCartItems] = useState({});
 
-  // ✅ Add item to cart
+  //  Add item to cart
   const addToCart = async (itemId) => {
     setCartItems((prev) => ({
       ...prev,
@@ -33,7 +33,7 @@ const StoreProvider = ({ children }) => {
     }
   };
 
-  // ✅ Remove item from cart
+  //  Remove item from cart
   const removeFromCart = async (itemId) => {
     setCartItems((prev) => {
       const updated = { ...prev };
@@ -61,7 +61,7 @@ const StoreProvider = ({ children }) => {
     }
   };
 
-  // ✅ Calculate total cart amount safely
+  //  Calculate total cart amount safely
   const getTotalCartAmount = () => {
     let totalAmount = 0;
 
@@ -83,7 +83,7 @@ const StoreProvider = ({ children }) => {
     return isNaN(totalAmount) ? 0 : totalAmount;
   };
 
-  // ✅ Load cart data from backend
+  //  Load cart data from backend
   const loadCartData = async (storedToken) => {
     if (!storedToken) return; // Nothing to do if no token
     try {
@@ -98,14 +98,14 @@ const StoreProvider = ({ children }) => {
     }
   };
 
-  // ✅ On mount: sync token & load cart if logged in
+  //  On mount: sync token & load cart if logged in
   useEffect(() => {
     if (token) {
       loadCartData(token);
     }
   }, [token]);
 
-  // ✅ Update localStorage when token changes
+  //  Update localStorage when token changes
   useEffect(() => {
     if (token) {
       localStorage.setItem("token", token);
